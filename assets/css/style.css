@@ -34,14 +34,20 @@
     width: 320px;
     height: 350px;
   }
+
+  .flat{
+    height:150px;
+    width: 200px;
+  }
    
    
 }
 
 
+
 .flat{
-  height:16vh;
-  width: 11vw;
+  height:150px;
+  width: 200px;
 }
    --dark-jungle-green: hsl(188, 63%, 7%);
   --prussian-blue: hsl(200, 69%, 14%);
@@ -616,6 +622,7 @@ button, a { transition: var(--transition); }
   background: var(--white);
   text-align: center;
   padding: 40px 30px;
+  border-radius: 16px;
   box-shadow: var(--shadow-2);
 }
 
